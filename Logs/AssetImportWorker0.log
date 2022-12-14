@@ -1,0 +1,1198 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/SyntyLipSync
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50218
+Successfully changed project path to: D:/UnityProjects/SyntyLipSync
+D:/UnityProjects/SyntyLipSync
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 79.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/SyntyLipSync/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003873 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.555 seconds
+Domain Reload Profiling:
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002816 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (113.0 KB). Loaded Objects now: 3675.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 2.750400 ms (FindLiveObjects: 0.251000 ms CreateObjectMapping: 0.208900 ms MarkObjects: 2.192800 ms  DeleteObjects: 0.096400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1291522.810932 seconds.
+  path: Assets/PolygonKids/Prefabs
+  artifactKey: Guid(84afca1f96fb957449e5809058e97b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs using Guid(84afca1f96fb957449e5809058e97b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90520768dd32d2dce664b4927750c3f6') in 0.007389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonKids
+  artifactKey: Guid(bda1b2f67d9222d4e9695d6e1a3d5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids using Guid(bda1b2f67d9222d4e9695d6e1a3d5ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f7e5fd52c4c17a7c947ec8985f2d24') in 0.004164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632676 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters
+  artifactKey: Guid(b0e418d353199dd47a4daf90ab8ff2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters using Guid(b0e418d353199dd47a4daf90ab8ff2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c34fa7ebe4c5abfc451f9adaaf1889') in 0.004935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068522 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Adventure_01.prefab
+  artifactKey: Guid(395dd9c9138664d498a4547dbfac4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Adventure_01.prefab using Guid(395dd9c9138664d498a4547dbfac4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8a8a3eaa9d9327be00be99cb1c8dd') in 0.497735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_Skirt_01.prefab
+  artifactKey: Guid(8d85d64405f75514aaceb87c3281beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_Skirt_01.prefab using Guid(8d85d64405f75514aaceb87c3281beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f4d068215c4cc63d8a02fdcf22bfc4') in 0.091069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Demon_01.prefab
+  artifactKey: Guid(5d41f08de1a7e744e8d76efb3481a98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Demon_01.prefab using Guid(5d41f08de1a7e744e8d76efb3481a98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb116573b4541ef44facf5a61736797b') in 0.066079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Karate_01.prefab
+  artifactKey: Guid(b6284caa9d5e952409ffa445ff7354cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Karate_01.prefab using Guid(b6284caa9d5e952409ffa445ff7354cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6668e18f857c7286caf849e12fd42e0c') in 0.075423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Exercise_02.prefab
+  artifactKey: Guid(1f4d41c1556fd0c4c96fcda9428b2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Exercise_02.prefab using Guid(1f4d41c1556fd0c4c96fcda9428b2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305529c530c0182970877985b4ef437c') in 0.069380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Cardboard_Robot_01.prefab
+  artifactKey: Guid(43e376138aa84ff498815d3fd57a1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Cardboard_Robot_01.prefab using Guid(43e376138aa84ff498815d3fd57a1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5bb15a252b9e020717a72b2173b0dc') in 0.065731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Footballer_01.prefab
+  artifactKey: Guid(b180061a4238c364b891abaa33e87508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Footballer_01.prefab using Guid(b180061a4238c364b891abaa33e87508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebad35c62a991b634fd2f124443b736') in 0.070056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_HolidayElf_01.prefab
+  artifactKey: Guid(44b075b21d1db9e41bcb111d54dceeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_HolidayElf_01.prefab using Guid(44b075b21d1db9e41bcb111d54dceeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d08964a7111ba23f420d5ab072dc16') in 0.069226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Overalls_02.prefab
+  artifactKey: Guid(a9490d0853bfecd48847785a2822a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Overalls_02.prefab using Guid(a9490d0853bfecd48847785a2822a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05fbd7ec3ca86debe09a6cddc1c478a') in 0.076812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Doctor_01.prefab
+  artifactKey: Guid(08e8619eb53499245b632e828929af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Doctor_01.prefab using Guid(08e8619eb53499245b632e828929af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a08e291d062a83a4a6603e17551959') in 0.076653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_JungleKid_01.prefab
+  artifactKey: Guid(8da429f60b75b8d448579243fa8c5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_JungleKid_01.prefab using Guid(8da429f60b75b8d448579243fa8c5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06391ed9dd9bd57d4d7cf93b9ef777d4') in 0.067618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Magician_01.prefab
+  artifactKey: Guid(eef1ac270ac73f04e924d7b57093363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Magician_01.prefab using Guid(eef1ac270ac73f04e924d7b57093363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c6e29cbe01abd697a748abe4eafb1') in 0.076331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_03.prefab
+  artifactKey: Guid(f4a3172d0c18b844394396cf43c44624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_03.prefab using Guid(f4a3172d0c18b844394396cf43c44624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ce7cb66d3aad02ebc764d71b5fb655') in 0.071519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Onesie_Tiger_01.prefab
+  artifactKey: Guid(8308498c2b7be8e4f8da7ea7f3af52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Onesie_Tiger_01.prefab using Guid(8308498c2b7be8e4f8da7ea7f3af52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06baecc39f0ae4ab99c6161fe5ad455b') in 0.064230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Fat_02.prefab
+  artifactKey: Guid(2ee09008497967148a35a5e81a119f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Fat_02.prefab using Guid(2ee09008497967148a35a5e81a119f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5575a583fd9ba0464558ed266c86aed4') in 0.063981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Explorer_01.prefab
+  artifactKey: Guid(d58b3b254538eb44fb9cc015b8283d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Explorer_01.prefab using Guid(d58b3b254538eb44fb9cc015b8283d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1179837fd7897b947622814ea2a43342') in 0.065087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pajamas_01.prefab
+  artifactKey: Guid(0b9174901194799418caa5ac908813d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pajamas_01.prefab using Guid(0b9174901194799418caa5ac908813d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb81f0b04a0159e3aad636957046d33') in 0.067102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ninja_01.prefab
+  artifactKey: Guid(0b57ae24d3e75d84a9e12ac46578ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ninja_01.prefab using Guid(0b57ae24d3e75d84a9e12ac46578ceae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892605618b66caf7cf54545488c699ec') in 0.065338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Mummy_01.prefab
+  artifactKey: Guid(8c51b882566001c4cb4588686deee3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Mummy_01.prefab using Guid(8c51b882566001c4cb4588686deee3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c344a2f8a457929b4aed7683f530237d') in 0.062814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_01.prefab
+  artifactKey: Guid(af2dae0a548a0d345923bd21fff5ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_01.prefab using Guid(af2dae0a548a0d345923bd21fff5ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55250d37ac38243c29395347f6777d55') in 0.077329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Geisha_01.prefab
+  artifactKey: Guid(90c47d4b7f0d18a4ab0d8426f424afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Geisha_01.prefab using Guid(90c47d4b7f0d18a4ab0d8426f424afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a459e0b95ac5c402927acbb20aa67990') in 0.065068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ghost_01.prefab
+  artifactKey: Guid(482d3657e1f083a42b5356e3491ca6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ghost_01.prefab using Guid(482d3657e1f083a42b5356e3491ca6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38fcb2ffb21de561e0a48142b11154f') in 0.076849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_02.prefab
+  artifactKey: Guid(3ab107c98932cd341bf96075e841c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_02.prefab using Guid(3ab107c98932cd341bf96075e841c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1eea149e7c3d22489b5323ef0b3d57') in 0.084371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_CargoShorts_01.prefab
+  artifactKey: Guid(b3810d6d592ccbe41bee8bb683cd9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_CargoShorts_01.prefab using Guid(b3810d6d592ccbe41bee8bb683cd9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc48163a6d21e4ab5f7035fe68d787f') in 0.106093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.378139 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pig_01.prefab
+  artifactKey: Guid(3b5a91c47ac92a6488d0e3e895844d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pig_01.prefab using Guid(3b5a91c47ac92a6488d0e3e895844d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735e199a1dd160f0c38a6feb39a30678') in 0.083998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pirate_02.prefab
+  artifactKey: Guid(da2cb1c2afe51324da4aca97d1c93009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pirate_02.prefab using Guid(da2cb1c2afe51324da4aca97d1c93009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628867e24657ac1a66ced0c56b42b2fb') in 0.073505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Punk_01.prefab
+  artifactKey: Guid(1d432b3421e558f45ac29b721a3dfbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Punk_01.prefab using Guid(1d432b3421e558f45ac29b721a3dfbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22f323c0d99b0244fbee1e8fe099b5f') in 0.068383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PufferVest_01.prefab
+  artifactKey: Guid(07aa740e59e94d84d94faea96e625be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PufferVest_01.prefab using Guid(07aa740e59e94d84d94faea96e625be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa035e644cc66d9135bc665fd240d915') in 0.069782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pirate_01.prefab
+  artifactKey: Guid(35bacd557d8fe5444b6e0fd8dd7f48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pirate_01.prefab using Guid(35bacd557d8fe5444b6e0fd8dd7f48eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609610d4fafd6ff4244feb6778272158') in 0.069607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PoliceOfficer_01.prefab
+  artifactKey: Guid(be509e0c838a1714498c832e8b25fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PoliceOfficer_01.prefab using Guid(be509e0c838a1714498c832e8b25fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4298a9954f6b5f6c158a94bf1698d0') in 0.094622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.139832 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robber_01.prefab
+  artifactKey: Guid(ae59edfacd14d0b46a5621d90dc5cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robber_01.prefab using Guid(ae59edfacd14d0b46a5621d90dc5cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f02c49cd7920919b17a103a6a057c9') in 0.075925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Schoolboy_01.prefab
+  artifactKey: Guid(f758a17caddd9fe4f877bc9c8474141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Schoolboy_01.prefab using Guid(f758a17caddd9fe4f877bc9c8474141e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13277fac6ccb554a118a73588415cad5') in 0.076427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Scifi_Spacesuit_01.prefab
+  artifactKey: Guid(c46cd22c96e3d804f86070057fbdb6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Scifi_Spacesuit_01.prefab using Guid(c46cd22c96e3d804f86070057fbdb6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73662e5f914d8ef44174a6306362195') in 0.325325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.040835 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Skater_01.prefab
+  artifactKey: Guid(96fb000d343c5d94c9f115748d2f5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Skater_01.prefab using Guid(96fb000d343c5d94c9f115748d2f5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e38b72f76cf4cf935915def4dd3826') in 0.094395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_SnowJacket_01.prefab
+  artifactKey: Guid(4a03b336a46b89e44ab125e63d7c1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_SnowJacket_01.prefab using Guid(4a03b336a46b89e44ab125e63d7c1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31697536c1520b26dafe28e09d41d052') in 0.080005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Spacesuit_01.prefab
+  artifactKey: Guid(09327883fb2ef934fa879d1744a2a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Spacesuit_01.prefab using Guid(09327883fb2ef934fa879d1744a2a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaa20ef359b99a337c8914d1f836971') in 0.079258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Survivor_Vest_01.prefab
+  artifactKey: Guid(78937ed8cf6224247b759c90ed55f99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Survivor_Vest_01.prefab using Guid(78937ed8cf6224247b759c90ed55f99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18dd5b6d13bcadb3b653efd9fd87682') in 0.075543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Trucker_01.prefab
+  artifactKey: Guid(94d18e7719be30a478a4d7bbfdb37a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Trucker_01.prefab using Guid(94d18e7719be30a478a4d7bbfdb37a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fe80d3a708eb8bcebae87c81e94388') in 0.084057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Tracksuit_01.prefab
+  artifactKey: Guid(63f0955ff35d57b4ca7530fc86a89d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Tracksuit_01.prefab using Guid(63f0955ff35d57b4ca7530fc86a89d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2013b5e555cca20ff529911674a49849') in 0.074140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Swimwear_02.prefab
+  artifactKey: Guid(68ff9488e07c51442bc98db30f106e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Swimwear_02.prefab using Guid(68ff9488e07c51442bc98db30f106e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e2e8b46552ebcec36733b3e37076d6') in 0.072960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Wetsuit_01.prefab
+  artifactKey: Guid(933471b5ee61a2d48ad1aac43d8d42dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Wetsuit_01.prefab using Guid(933471b5ee61a2d48ad1aac43d8d42dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922de4398377c7442e9f636af72e9b68') in 0.075057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.140648 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Wizard_01.prefab
+  artifactKey: Guid(a0d9ea26876f9634e89a6bf0d998b268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Wizard_01.prefab using Guid(a0d9ea26876f9634e89a6bf0d998b268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc41fcf556201703068d03dd779c785') in 0.088637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.801040 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Badge_Donut_01.prefab
+  artifactKey: Guid(de736f74ea935394a9e27b4b98037cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Badge_Donut_01.prefab using Guid(de736f74ea935394a9e27b4b98037cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0caccde6b6cbf537f3ee614e49c68d') in 0.048498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Tail_Cat_01.prefab
+  artifactKey: Guid(a8cb606fcdcc5a6459242f861f2ffe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Tail_Cat_01.prefab using Guid(a8cb606fcdcc5a6459242f861f2ffe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4734e238d32416fd905430f39803b96') in 0.050505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Badge_Pug_01.prefab
+  artifactKey: Guid(60730b4175cd2524d9d2a15ea31a7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Badge_Pug_01.prefab using Guid(60730b4175cd2524d9d2a15ea31a7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d7a1c9ccbbb1491fcba39c9c014b1c') in 0.044824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Wings_03_Left.prefab
+  artifactKey: Guid(9d50ff044d387d045a60776fad55e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Wings_03_Left.prefab using Guid(9d50ff044d387d045a60776fad55e902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0535231497d14560e568eb8f3185f36') in 0.046177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Cheerleader_Pompoms_01.prefab
+  artifactKey: Guid(48b4219bdac960f44886e43cabb8f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Cheerleader_Pompoms_01.prefab using Guid(48b4219bdac960f44886e43cabb8f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1652e5e180edb9f13f3c70edddfa8a4') in 0.049530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_BoxingGlove_R_01.prefab
+  artifactKey: Guid(ef565c4b28427b3429ebd6ea5acf69fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_BoxingGlove_R_01.prefab using Guid(ef565c4b28427b3429ebd6ea5acf69fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b8e013bb6e1d3347c763704573fa48') in 0.046240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Pouch_04.prefab
+  artifactKey: Guid(8df4b0de0de0e744ca37b82ea71098f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Pouch_04.prefab using Guid(8df4b0de0de0e744ca37b82ea71098f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598c579d00c3f6d509778018cd9c76df') in 0.036980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Robber_Bag_01.prefab
+  artifactKey: Guid(d641071785be8674cb36500d120094ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Robber_Bag_01.prefab using Guid(d641071785be8674cb36500d120094ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5c89c3038bc0a8a35650f3b55104bc') in 0.029692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Pouch_02.prefab
+  artifactKey: Guid(e3d17b341c6ff1545907591e4bbc6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Pouch_02.prefab using Guid(e3d17b341c6ff1545907591e4bbc6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30a0ba1ea419671c1925b9cf1dc6c8') in 0.027172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Swimming_Floaties_01.prefab
+  artifactKey: Guid(867118fbf4bab4d48992373cc4f481e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Swimming_Floaties_01.prefab using Guid(867118fbf4bab4d48992373cc4f481e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf7c586e9c20acddb00670f2aed013a') in 0.032411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Tail_Dino_01.prefab
+  artifactKey: Guid(b9acc1bb36c5994479d507456580a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Attachments/SM_Chr_Attach_Tail_Dino_01.prefab using Guid(b9acc1bb36c5994479d507456580a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2565923545d8407789b5bfdfaea7005f') in 0.031187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.507880 seconds.
+  path: Assets/PolygonKids/Prefabs/Characters/Babies/SM_Chr_Baby_Alien_02.prefab
+  artifactKey: Guid(4a9429a0a1a1c9c4db923f1d5be495d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Characters/Babies/SM_Chr_Baby_Alien_02.prefab using Guid(4a9429a0a1a1c9c4db923f1d5be495d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b084e5ca6bb61ccafea0f3b61cc8ac') in 0.259215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.883798 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Fountain_01.prefab
+  artifactKey: Guid(5f3efae5ae4459045816d7f6bfcfc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Fountain_01.prefab using Guid(5f3efae5ae4459045816d7f6bfcfc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511fbb5ba88ca68d572393a401bdd13c') in 0.032730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_01.prefab
+  artifactKey: Guid(03c33aa78eeae8e489fe49436c0ecacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_01.prefab using Guid(03c33aa78eeae8e489fe49436c0ecacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5857885158c6cc52c80bb0434ec1a8b') in 0.032057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Ground_Ramp_01.prefab
+  artifactKey: Guid(ebbfbe044f989744db17b4d1958e3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Ground_Ramp_01.prefab using Guid(ebbfbe044f989744db17b4d1958e3e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ad86a06a00850dbcdc05389f1ce4b1') in 0.030428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Bowl_01.prefab
+  artifactKey: Guid(14864aeb55150754bb6ac798ff326841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Bowl_01.prefab using Guid(14864aeb55150754bb6ac798ff326841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7871f7016a0d80c85ba2ddf43ef5dfaa') in 0.029784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_03.prefab
+  artifactKey: Guid(214d4023d27a90042964df53b4a822cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_03.prefab using Guid(214d4023d27a90042964df53b4a822cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf2a5ade9db1f5831fc5e0386e171ac') in 0.030714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Concrete_Block_01.prefab
+  artifactKey: Guid(85d1e2a589f809144aff70c9f919454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Concrete_Block_01.prefab using Guid(85d1e2a589f809144aff70c9f919454b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3457744864f7bce98dfa94753b599244') in 0.027694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_02.prefab
+  artifactKey: Guid(1f0e77e0a9e1ce34295aa5fcb9803213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_02.prefab using Guid(1f0e77e0a9e1ce34295aa5fcb9803213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5560a9c679c43da9b165ed7857c256') in 0.027183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Ground_Tile_Grass.prefab
+  artifactKey: Guid(a102d20a5289e8b408c1c9298e185159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Ground_Tile_Grass.prefab using Guid(a102d20a5289e8b408c1c9298e185159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a93ca293f4dbf84cff8ea82bd96f28') in 0.028804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Fence_Pole_01.prefab
+  artifactKey: Guid(efa9e0896f5dfb54da93eb3432b3c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Fence_Pole_01.prefab using Guid(efa9e0896f5dfb54da93eb3432b3c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30c6d638398a3551b0dd81e144a0bca') in 0.031640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Seat_01.prefab
+  artifactKey: Guid(8ac25bcf9e1977f428e0cf7c28438780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Seat_01.prefab using Guid(8ac25bcf9e1977f428e0cf7c28438780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898ac2d384d04b28136325cdbe13d132') in 0.029321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Lilly_02.prefab
+  artifactKey: Guid(35e2d0994cdf2164eb81d1ce40ae65b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Lilly_02.prefab using Guid(35e2d0994cdf2164eb81d1ce40ae65b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13adfcb83fcb5b5b986491d92029d91') in 0.026661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_02.prefab
+  artifactKey: Guid(1ea6284bf854b854898fa617f928ce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_02.prefab using Guid(1ea6284bf854b854898fa617f928ce72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd1d286de8ae0153eb7404d6f48ac6') in 0.026646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Ground_Tile_01.prefab
+  artifactKey: Guid(2cdd89cbf82ce8f4a8a072c9996f144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Ground_Tile_01.prefab using Guid(2cdd89cbf82ce8f4a8a072c9996f144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cc183259c67825be72acf3a3f79ece') in 0.029097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Flower_01.prefab
+  artifactKey: Guid(10baff7b5b9465d42abfea0aa427d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Park_Flower_01.prefab using Guid(10baff7b5b9465d42abfea0aa427d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a000e99380adc5177610a3a2be1b0d7') in 0.027097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_03.prefab
+  artifactKey: Guid(ea9d9e404170df7428fd14ac7dded7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_03.prefab using Guid(ea9d9e404170df7428fd14ac7dded7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74972aeda06764afee5d1b58c3e41478') in 0.028376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_Side_Corner_01.prefab
+  artifactKey: Guid(fe117410ca7d9fb4b9d03c7d75b839a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_Side_Corner_01.prefab using Guid(fe117410ca7d9fb4b9d03c7d75b839a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37098c1ed84b616673106d468b00d80') in 0.029391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_Side_01.prefab
+  artifactKey: Guid(30b0339bf00835b49af3cdf315941140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_Side_01.prefab using Guid(30b0339bf00835b49af3cdf315941140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85746e7e566056b0630f6349ccbf13a9') in 0.029418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_04.prefab
+  artifactKey: Guid(97ae2294e2a54db4a902207f54144f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Grass_Tuft_04.prefab using Guid(97ae2294e2a54db4a902207f54144f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2f06efd0097e12cd3477989d5fcddd') in 0.028739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_01.prefab
+  artifactKey: Guid(20d534a53fdfabb4ebe6c42615a47c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_Path_01.prefab using Guid(20d534a53fdfabb4ebe6c42615a47c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71e3e348bda1b66df2ce645302648ba') in 0.029306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Rail_Straight_03.prefab
+  artifactKey: Guid(b858876ff72f50346af9eb5ab1e9db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Rail_Straight_03.prefab using Guid(b858876ff72f50346af9eb5ab1e9db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6147c13be3a26c07fda2027d2cb694') in 0.032713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Wall_01.prefab
+  artifactKey: Guid(f3a8a75af3d1d574b848e3566389fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Wall_01.prefab using Guid(f3a8a75af3d1d574b848e3566389fd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b937dccef815cad3ab40373ceb437509') in 0.028112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Rail_Box_04.prefab
+  artifactKey: Guid(f991c1001e6344d4398fbdfaaadc0e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Environment/SM_Env_SkatePark_Rail_Box_04.prefab using Guid(f991c1001e6344d4398fbdfaaadc0e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5223b9d778855a612d7cdda890e542') in 0.028771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249195 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Cloud_02.prefab
+  artifactKey: Guid(cc2d7f594a6fe4743824c7e245cfc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Cloud_02.prefab using Guid(cc2d7f594a6fe4743824c7e245cfc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e55ddd3a40f6f76764157716ad9d8') in 0.044669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Cloud_04.prefab
+  artifactKey: Guid(c27ecae1410e5c04284e99bc06f5f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Cloud_04.prefab using Guid(c27ecae1410e5c04284e99bc06f5f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e83785eaa9bf45b305848416424642') in 0.048737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab
+  artifactKey: Guid(fc78590540b1db9478ac58c5cf4362f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Grass_Patch_03.prefab using Guid(fc78590540b1db9478ac58c5cf4362f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f87d39a6233c725d4e082caaf6faf1') in 0.036592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Tree_01.prefab
+  artifactKey: Guid(890347f922e3add46a5cee6ef9e207c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Tree_01.prefab using Guid(890347f922e3add46a5cee6ef9e207c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adac787a9b982fe12cb8ca699a5e7db0') in 0.032864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Water_Plane_02.prefab
+  artifactKey: Guid(2b4c0c34b84c4894e84d0a0b19921f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Water_Plane_02.prefab using Guid(2b4c0c34b84c4894e84d0a0b19921f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3226f2ab2c78f8f5ed535b61189c1c2') in 0.032894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_CloudRing_01.prefab
+  artifactKey: Guid(137a9232d4cf62345bdad9fb98b39e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_CloudRing_01.prefab using Guid(137a9232d4cf62345bdad9fb98b39e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c3849e1aea38d8b75bdd83cb962be2') in 0.032908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PolygonKids/Prefabs/Generic/SM_Generic_Water_Plane_01.prefab
+  artifactKey: Guid(d8a061f793bce8f409cee4750be050ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Generic/SM_Generic_Water_Plane_01.prefab using Guid(d8a061f793bce8f409cee4750be050ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991dff396f520a3ac2e6ac66db71bba0') in 0.029995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.442644 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_01.prefab
+  artifactKey: Guid(0600cf87140ba5347b9e296848d24194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_01.prefab using Guid(0600cf87140ba5347b9e296848d24194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b219761151ef537998021b63db2fa1c') in 0.027499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Firework_01.prefab
+  artifactKey: Guid(d4386dfefb294be419f15604fb4c1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Firework_01.prefab using Guid(d4386dfefb294be419f15604fb4c1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5d75e1d06ccdc4f5960f52d3204071') in 0.035247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_03.prefab
+  artifactKey: Guid(a2a0f9914498e874cb26b25562ef7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_03.prefab using Guid(a2a0f9914498e874cb26b25562ef7d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9060f06d1d60b432d7a5b00dc265d0') in 0.033145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Hair_Straightener_01.prefab
+  artifactKey: Guid(ccb36a52f274eea4cade9db3970ce3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Hair_Straightener_01.prefab using Guid(ccb36a52f274eea4cade9db3970ce3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a7046e4e13b6c00a6055154e41e4c9') in 0.029275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Bucket_01.prefab
+  artifactKey: Guid(ab676e003a15b884fa4928b4de872a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Bucket_01.prefab using Guid(ab676e003a15b884fa4928b4de872a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b85edc8531c08e5e43b7c211bf39062') in 0.029111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Hair_Brush_01.prefab
+  artifactKey: Guid(8e5cdc068779b0348aecb6f6b0a24362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Hair_Brush_01.prefab using Guid(8e5cdc068779b0348aecb6f6b0a24362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd824bab87c644614a9397dfbd184a78a') in 0.033090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_CD_01.prefab
+  artifactKey: Guid(686e2553ddeba1441a749835502be11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_CD_01.prefab using Guid(686e2553ddeba1441a749835502be11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed90170dc656c5e9db232bb1d67bd91') in 0.031669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Candy_05.prefab
+  artifactKey: Guid(1d3899458887cf8468c9bba1ddf8a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Candy_05.prefab using Guid(1d3899458887cf8468c9bba1ddf8a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36358c81abd7eee0903bbe1b8e6d56ca') in 0.033990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Communicator_01.prefab
+  artifactKey: Guid(f473f17731841cb41bf51d1e502ae8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Communicator_01.prefab using Guid(f473f17731841cb41bf51d1e502ae8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f8a392418a049bea9a56d63e55af3') in 0.030100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Bug_Catcher_02.prefab
+  artifactKey: Guid(88a1bcb0e0ef20f45bca2e9272d1815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Bug_Catcher_02.prefab using Guid(88a1bcb0e0ef20f45bca2e9272d1815e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db03a96d0726671234486580c877a352') in 0.032234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Doll_House_01.prefab
+  artifactKey: Guid(ae5497f50d245d3428200d268472d8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Doll_House_01.prefab using Guid(ae5497f50d245d3428200d268472d8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8298fec59b4327b8c49b4dba588e7e67') in 0.033529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Camera_01.prefab
+  artifactKey: Guid(e7efd0e38a5a1b446a588d9143ca12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Camera_01.prefab using Guid(e7efd0e38a5a1b446a588d9143ca12dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e0b07396ff6aa142117cf31bd772bb') in 0.035513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_06.prefab
+  artifactKey: Guid(b8540b208d6bed74f819453ae9c20a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Adornment_06.prefab using Guid(b8540b208d6bed74f819453ae9c20a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b1bac6eec2e2a231a2517def62f198') in 0.032652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Firework_02.prefab
+  artifactKey: Guid(3d1af50719bb41744a91c299af5bdb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Firework_02.prefab using Guid(3d1af50719bb41744a91c299af5bdb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96601779f23eaa66efb722827ccc5b4') in 0.034079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Prefabs/Props/SM_Prop_Candy_02.prefab
+  artifactKey: Guid(a1eae45431e1f804c9c60c0715437d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Prefabs/Props/SM_Prop_Candy_02.prefab using Guid(a1eae45431e1f804c9c60c0715437d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec237fdf28e7dccd2b58a575664f7e6') in 0.028144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.088092 seconds.
+  path: Assets/PolygonKids/Textures/PolygonKids_Blood.png
+  artifactKey: Guid(41b89ed9f089dc541aabb1fb18417723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/PolygonKids_Blood.png using Guid(41b89ed9f089dc541aabb1fb18417723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0973daafc6e5ad3090d226423e7572d3') in 0.030090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonKids/Textures/PolygonKids_Texture_02_C.png
+  artifactKey: Guid(8bab16dc53496e041a88cad69331af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/PolygonKids_Texture_02_C.png using Guid(8bab16dc53496e041a88cad69331af4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ad93de0767fbeca58d7ae4f73aff5e') in 0.015253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PolygonKids/Textures/PolygonKids_Texture_04_B.png
+  artifactKey: Guid(d1389fc9777dbe54f9d171d2351a07bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/PolygonKids_Texture_04_B.png using Guid(d1389fc9777dbe54f9d171d2351a07bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443964bafbfcd3f3b278d965ecef8827') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/PolygonKids/Textures/PolygonKids_Texture_01_B.png
+  artifactKey: Guid(7c4217357de681b48bf68fae48069e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/PolygonKids_Texture_01_B.png using Guid(7c4217357de681b48bf68fae48069e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c16c7cf20f87646b6a27c6f33b5dc5') in 0.015410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonKids/Textures/PolygonKids_Texture_03_A.png
+  artifactKey: Guid(03688f7532097084aa19faa7551c336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/PolygonKids_Texture_03_A.png using Guid(03688f7532097084aa19faa7551c336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807061e27345241e337c71612c238312') in 0.013122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398853 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Robot/Polygon_Kids_Texture_Facial_Expression_Dead_Robot_01.png
+  artifactKey: Guid(dae3169bd4210ea4882683aa30278164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Robot/Polygon_Kids_Texture_Facial_Expression_Dead_Robot_01.png using Guid(dae3169bd4210ea4882683aa30278164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6677fe8df9ef553f7fd892ca4a0c08') in 0.013864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Robot/Polygon_Kids_Texture_Facial_Expression_Normal_Robot_01.png
+  artifactKey: Guid(a69f8daa0624e2e4aadd143684aa4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Robot/Polygon_Kids_Texture_Facial_Expression_Normal_Robot_01.png using Guid(a69f8daa0624e2e4aadd143684aa4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a37bce2c0b83159618b0e152a489a54') in 0.015796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.743319 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_AEI_Freckles_01.png
+  artifactKey: Guid(0279efc4f89555a4e9b60f7c8052b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_AEI_Freckles_01.png using Guid(0279efc4f89555a4e9b60f7c8052b573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ed1201e8bc882a8f4707ba6bbd9a0') in 0.016659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_R_Freckles_01.png
+  artifactKey: Guid(d5d74de31c5d1ba409a865c6509cd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_R_Freckles_01.png using Guid(d5d74de31c5d1ba409a865c6509cd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0ccba349da7dd732d0fdc921430803') in 0.016966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_SH_K_Freckles_01.png
+  artifactKey: Guid(b8b87363d135ab946b47f90a05b231e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_SH_K_Freckles_01.png using Guid(b8b87363d135ab946b47f90a05b231e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e848fd1c40032c3a91c92385fbc73abd') in 0.017185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_F_Freckles_01.png
+  artifactKey: Guid(1f01dbf69e00406429bd9d7e9e3bcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/Normal/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_F_Freckles_01.png using Guid(1f01dbf69e00406429bd9d7e9e3bcda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c88fe1addd97b1f8916168266fca0') in 0.013415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.793667 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c8862e96b97724492d72df5750b74a') in 0.041198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3aacc9be496a404b18202d7f89d906') in 0.027657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3c5188fb9f3792a52b61dff2bdb822') in 0.025045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png
+  artifactKey: Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png using Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4708e680a7c69414b68b594054455b') in 0.026417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.095188 seconds.
+  path: Assets/PolygonKids/Models/Characters_Kids.fbx
+  artifactKey: Guid(a890656eebef5d94ab6c86843cebd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/Characters_Kids.fbx using Guid(a890656eebef5d94ab6c86843cebd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160607e032278e86661201fdeb1a5dd6') in 1.065091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.661834 seconds.
+  path: Assets/PolygonKids/Materials
+  artifactKey: Guid(48ccf45b9cd95dd4cb4e5c5f519047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials using Guid(48ccf45b9cd95dd4cb4e5c5f519047d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fa02d190f56d7c753d95fa2dd9185d') in 0.005836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041427 seconds.
+  path: Assets/PolygonKids/Materials/PolygonKids_Material_01_A.mat
+  artifactKey: Guid(823ac0e34852f1946b70b81aa0a7763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/PolygonKids_Material_01_A.mat using Guid(823ac0e34852f1946b70b81aa0a7763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82975e2454d9fb2a43a453326f1f317') in 0.046528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580065 seconds.
+  path: Assets/PolygonKids/Materials/Alts
+  artifactKey: Guid(908398589694f794d835fdb31ab97eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Alts using Guid(908398589694f794d835fdb31ab97eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3b8cf21f92ac4684497f2f8bc39d4f') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112184 seconds.
+  path: Assets/PolygonKids/Materials/Alts/PolygonKids_Material_01_B.mat
+  artifactKey: Guid(d97f9edf3b7f65447a7e26db51eaad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Alts/PolygonKids_Material_01_B.mat using Guid(d97f9edf3b7f65447a7e26db51eaad93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b35b9b09ffbc84be1497acd4b80f57') in 0.014924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonKids/Materials/Alts/PolygonKids_Material_03_B.mat
+  artifactKey: Guid(3a59b12493d2e0f46a8441eb5a1e8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Alts/PolygonKids_Material_03_B.mat using Guid(3a59b12493d2e0f46a8441eb5a1e8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a6153a2e0e6cdb6213427bfb2d1065') in 0.017669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.545303 seconds.
+  path: Assets/PolygonKids/Materials/Misc
+  artifactKey: Guid(142ce1ff087d8a043a92904776d86a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Misc using Guid(142ce1ff087d8a043a92904776d86a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a4727a7d7d02e0e254195b9c494715') in 0.006715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.485183 seconds.
+  path: Assets/PolygonKids/Materials/Misc/PolygonKids_Glass.mat
+  artifactKey: Guid(064a6c674230f9e4f93b16bd5564017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Misc/PolygonKids_Glass.mat using Guid(064a6c674230f9e4f93b16bd5564017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafc9a8a4e91404d3817cd169db7b926') in 0.028244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PolygonKids/Materials/Misc/PolygonKids_Material_Face_Robot_01_A.mat
+  artifactKey: Guid(a520ceb968990fe4297e9aa8a81849e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Misc/PolygonKids_Material_Face_Robot_01_A.mat using Guid(a520ceb968990fe4297e9aa8a81849e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cf97db6c9b9154f7f352ecd2de3125') in 0.013211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Materials/Misc/PolygonKids_Material_Water.mat
+  artifactKey: Guid(d2fd223dfed5d95449d55bd4117a2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Materials/Misc/PolygonKids_Material_Water.mat using Guid(d2fd223dfed5d95449d55bd4117a2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66eabc63fed519d5ed0936b14a8f13d8') in 0.026495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.380235 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth
+  artifactKey: Guid(c5e28ad0007b0f34c9ef780ddd194d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth using Guid(c5e28ad0007b0f34c9ef780ddd194d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed69aeaf52ec15cbce336dc1687c6d4') in 0.004734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.410402 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes
+  artifactKey: Guid(d24cc1943dcefb044b4cdbc53c76dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes using Guid(d24cc1943dcefb044b4cdbc53c76dc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb04eb0d6a776ea47b41a66cc0ee26') in 0.001372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091443 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_A_MissingTooth_01.png
+  artifactKey: Guid(7b78029692000a149b5f8c69e5eac097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_A_MissingTooth_01.png using Guid(7b78029692000a149b5f8c69e5eac097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c43890bc92c67f1dd65358fe36ccad') in 0.020274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_SH_K_MissingTooth_01.png
+  artifactKey: Guid(5e7a1e4e9d3e3004490c824fa1347842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_SH_K_MissingTooth_01.png using Guid(5e7a1e4e9d3e3004490c824fa1347842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764ae41d275bfdf7e3ba79d2f7319595') in 0.016785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_L_MissingTooth_01.png
+  artifactKey: Guid(b2ed6def4ee73f547b6ac1b3210c4faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_L_MissingTooth_01.png using Guid(b2ed6def4ee73f547b6ac1b3210c4faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a84ade582c8c7ef9885072d629ce32') in 0.019251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_O_MissingTooth_01.png
+  artifactKey: Guid(659d78669e2779c458163c68ad6fc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Textures/Faces_Human/MissingTooth/Phonemes/Polygon_Kids_Texture_Facial_Phonemes_O_MissingTooth_01.png using Guid(659d78669e2779c458163c68ad6fc569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd600c7a9c8bca1dce0c3829f9bcae7f8') in 0.013425 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (899ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (80.4 KB). Loaded Objects now: 4025.
+Memory consumption went from 209.9 MB to 209.8 MB.
+Total: 2.761600 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.236000 ms MarkObjects: 2.132100 ms  DeleteObjects: 0.074100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.562526 seconds.
+  path: Assets/Rhubarb
+  artifactKey: Guid(cb509dfe2a45a7d4bab11fe28c69547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb using Guid(cb509dfe2a45a7d4bab11fe28c69547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5c8789a4da4d811bb88cfad463853c') in 0.011211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.940983 seconds.
+  path: Assets/Rhubarb/Scripts
+  artifactKey: Guid(fa4f126a2257af843ae581658f2ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts using Guid(fa4f126a2257af843ae581658f2ca714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf6c6b5e47ba12420dae0803edbcba4') in 0.005767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.921004 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable
+  artifactKey: Guid(b53087e42bc7a5742bc6fbea90d551c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable using Guid(b53087e42bc7a5742bc6fbea90d551c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef427d0b0cda0f96cdb4d4c7ef7836e3') in 0.004685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.293574 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableBehaviour.cs
+  artifactKey: Guid(7bae0462c7d91934282f78c9b26c5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableBehaviour.cs using Guid(7bae0462c7d91934282f78c9b26c5f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddef870defb1d264f01a47534a4f8165') in 0.007469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.684558 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableClip.cs
+  artifactKey: Guid(ad6ea6d7381921d4d84337f38c5dd0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableClip.cs using Guid(ad6ea6d7381921d4d84337f38c5dd0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab4465ad31fc3f1e3481ad88f451648') in 0.004758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.472065 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableMixerBehaviour.cs
+  artifactKey: Guid(c93aa4728d3a9964cb1ee3d4f1849e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableMixerBehaviour.cs using Guid(c93aa4728d3a9964cb1ee3d4f1849e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54339e5d6338071ac439b2f537f3c3ae') in 0.006020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.179340 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableTrack.cs
+  artifactKey: Guid(3dbca6c65e455d8478fd821cb5842a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable/RhubarbPlayableTrack.cs using Guid(3dbca6c65e455d8478fd821cb5842a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48b34f50667c9f59bc45bd1a9759a6b') in 0.007848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.111556 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbPlayable/Editor
+  artifactKey: Guid(6bb5200e4dd8c434d8a5539c6a954f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbPlayable/Editor using Guid(6bb5200e4dd8c434d8a5539c6a954f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5e58202174204f441995250594c55') in 0.005069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.830171 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbSpriteSet.cs
+  artifactKey: Guid(4f1dfcfb5e163644e9d1a32cd9e87c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbSpriteSet.cs using Guid(4f1dfcfb5e163644e9d1a32cd9e87c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f051e485ed28abdbbdc0abcb115db89e') in 0.004361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png
+  artifactKey: Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png using Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3973b0d35e2c1893e3a162882d3bf3a1') in 0.063918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.170566 seconds.
+  path: Assets/Rhubarb/Scripts/RhubarbSprite.cs
+  artifactKey: Guid(eb16aba89d64864448e0d7a09b736644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Scripts/RhubarbSprite.cs using Guid(eb16aba89d64864448e0d7a09b736644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb85a6bb1632dac74b54521053bcf29c') in 0.005624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 325.212696 seconds.
+  path: Assets/Rhubarb/Sprites
+  artifactKey: Guid(6377670ffbedf0b438a6d34d3971adb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites using Guid(6377670ffbedf0b438a6d34d3971adb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab70deac9a3870cf9a3564bea9cb36c') in 0.005063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064062 seconds.
+  path: Assets/Rhubarb/Sprites/lisa-A.png
+  artifactKey: Guid(72652df22bad9844dabec60a3179a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites/lisa-A.png using Guid(72652df22bad9844dabec60a3179a593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6303581dfcc7e31ad5e8f85a769a4d') in 0.034624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Rhubarb/Sprites/lisa-D.png
+  artifactKey: Guid(57bad12aab6e4be4bb54921044977037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites/lisa-D.png using Guid(57bad12aab6e4be4bb54921044977037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4ca2a2731882009810c7bd838b7b76') in 0.026789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rhubarb/Sprites/lisa-F.png
+  artifactKey: Guid(3c405e83cd060724e8d60d9622b0434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites/lisa-F.png using Guid(3c405e83cd060724e8d60d9622b0434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968069ac1465570ac20d664f608d09ce') in 0.020103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Rhubarb/Sprites/lisa-H.png
+  artifactKey: Guid(281c693242626fe4db3a68c713af203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites/lisa-H.png using Guid(281c693242626fe4db3a68c713af203e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9a4ae99b02faa37502c67fef594057') in 0.018161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Rhubarb/Sprites/lisa-C.png
+  artifactKey: Guid(3912bd52578703b44a17d4e066766cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rhubarb/Sprites/lisa-C.png using Guid(3912bd52578703b44a17d4e066766cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2420cf08127f8cf7ea45cb661d6817') in 0.021139 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003061 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\SyntyLipSync\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (890ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (80.2 KB). Loaded Objects now: 4120.
+Memory consumption went from 214.0 MB to 214.0 MB.
+Total: 2.714600 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.228700 ms MarkObjects: 2.016900 ms  DeleteObjects: 0.077100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.981154 seconds.
+  path: Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_AEI_MissingTooth_01.png
+  artifactKey: Guid(bca635966d76ca84cacdc21fa7e2692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_AEI_MissingTooth_01.png using Guid(bca635966d76ca84cacdc21fa7e2692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfe6c6146e03383a4acd3fbe908bd87') in 0.060318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_R_MissingTooth_01.png
+  artifactKey: Guid(c9206fdabd99d574ab6af179118e6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_R_MissingTooth_01.png using Guid(c9206fdabd99d574ab6af179118e6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c89f3c50c0283d1a83d4ea1fc2eba70') in 0.020983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_SH_K_MissingTooth_01.png
+  artifactKey: Guid(b35e9b82bcea9fa4ebe26bfc42ba0e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_SH_K_MissingTooth_01.png using Guid(b35e9b82bcea9fa4ebe26bfc42ba0e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16e875b4868581202f0d0fbfb410ed7') in 0.012455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_BMP_MissingTooth_01.png
+  artifactKey: Guid(7881e7f975c53144889bffb967b28570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Polygon_Kids_Texture_Facial_Phonemes_BMP_MissingTooth_01.png using Guid(7881e7f975c53144889bffb967b28570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8543b8ba982935f38d43b4bc75f6c6') in 0.014857 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

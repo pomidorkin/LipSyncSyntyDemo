@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f1dfcfb5e163644e9d1a32cd9e87c9f, type: 3}
+  m_Name: SyntyKid
+  m_EditorClassIdentifier: 
+  A: {fileID: 2800000, guid: 7881e7f975c53144889bffb967b28570, type: 3}
+  B: {fileID: 2800000, guid: b35e9b82bcea9fa4ebe26bfc42ba0e56, type: 3}
+  C: {fileID: 2800000, guid: bca635966d76ca84cacdc21fa7e2692f, type: 3}
+  D: {fileID: 2800000, guid: e53f6c1dc34907041b2e9b633be368d0, type: 3}
+  E: {fileID: 2800000, guid: b9122605be1ebdd45b02509081ab888d, type: 3}
+  F: {fileID: 2800000, guid: 218998ad139179b46a034bf55bddf5d3, type: 3}
+  G: {fileID: 2800000, guid: fd191a8ba17b6e247a5b4c7f440a2cc9, type: 3}
+  H: {fileID: 2800000, guid: df865a2d1399c2749b6cbeb63d453228, type: 3}
+  X: {fileID: 2800000, guid: 3fae6aefdd4ae6e4d85e7965c9875137, type: 3}
